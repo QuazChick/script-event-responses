@@ -1,0 +1,15 @@
+{
+  "type": "script_library",
+  "target": "preview",
+  "directories": {
+    "source": "src",
+    "development": "example/BP/scripts/node_modules/event-responses",
+    "build": "build"
+  },
+  "entries": ["index.ts"],
+  "bundle": true,
+  "dependencies": {
+    "@minecraft/common": "^1.1.0",
+    "@minecraft/server": "^1.13.0-beta"
+  }
+}

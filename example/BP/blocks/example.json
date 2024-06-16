@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "example:block",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "dirt"
+        }
+      },
+      "minecraft:tick": {
+        "interval_range": [20, 50],
+        "looping": true
+      },
+      "minecraft:custom_components": ["example:block_component"]
+    }
+  }
+}

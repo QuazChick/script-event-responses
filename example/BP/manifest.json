@@ -1,0 +1,33 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Event Responses Library Example",
+    "description": "",
+    "uuid": "d925c19b-2d5f-419a-82e7-30404e4fed37",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 10]
+  },
+  "metadata": {
+    "url": "https://github.com/QuazChick/script-event-responses/tree/main/example",
+    "authors": ["QuazChick"],
+    "license": "MIT"
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "eab9c4df-ce18-49e1-b219-aefe54702842",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "index.js",
+      "uuid": "7989bff8-54a1-44e6-a2ee-09a91fc3e8cd",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/common", "version": "1.2.0" },
+    { "module_name": "@minecraft/server", "version": "1.13.0-beta" }
+  ]
+}
